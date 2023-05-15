@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Manrope&display=swap");
 
+$breakpoint-mobile: 576px;
+$breakpoint-tablet: 768px;
+$breakpoint-desktop: 992px;
+
 .chat__container {
   width: 100%;
   min-height: 100vh;
@@ -10,7 +14,21 @@
 .chat__body {
   display: flex;
   justify-content: flex-start;
-  // align-items: center;
-  margin-top: 3rem;
+  margin-top: 2rem;
   background-color: #0d1f42;
+}
+
+// Responsivness
+
+$breakpoint-tablet: 768px;
+
+@media (max-width: $breakpoint-tablet) {
+  .chat__container {
+    padding: 0rem 0rem;
+    min-height: 100vh;
+  }
+
+  .chat__body {
+    margin-top: 0rem;
+  }
 }

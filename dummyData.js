@@ -1,5 +1,6 @@
 export const dummyConversationData = [
   {
+    id: 1,
     profileUrl: "/assets/profile.png",
     name: "Wajid Ullah",
     lastMsg: "Ok Sure...",
@@ -7,6 +8,7 @@ export const dummyConversationData = [
     messageSeen: false,
   },
   {
+    id: 2,
     profileUrl: "/assets/profile.png",
     name: "Wajid Ullah",
     lastMsg: "Ok Sure...",
@@ -14,6 +16,7 @@ export const dummyConversationData = [
     messageSeen: true,
   },
   {
+    id: 3,
     profileUrl: "/assets/profile.png",
     name: "Wajid Ullah",
     lastMsg: "Ok Sure...",
@@ -21,6 +24,7 @@ export const dummyConversationData = [
     messageSeen: false,
   },
   {
+    id: 4,
     profileUrl: "/assets/profile.png",
     name: "Wajid Ullah",
     lastMsg: "Ok Sure...",
@@ -28,6 +32,7 @@ export const dummyConversationData = [
     messageSeen: false,
   },
   {
+    id: 5,
     profileUrl: "/assets/profile.png",
     name: "Wajid Ullah",
     lastMsg: "Ok Sure...",
@@ -35,6 +40,7 @@ export const dummyConversationData = [
     messageSeen: true,
   },
   {
+    id: 6,
     profileUrl: "/assets/profile.png",
     name: "Wajid Ullah",
     lastMsg: "Ok Sure...",
@@ -42,6 +48,7 @@ export const dummyConversationData = [
     messageSeen: false,
   },
   {
+    id: 7,
     profileUrl: "/assets/profile.png",
     name: "Wajid Ullah",
     lastMsg: "Ok Sure...",
@@ -49,6 +56,7 @@ export const dummyConversationData = [
     messageSeen: false,
   },
   {
+    id: 8,
     profileUrl: "/assets/profile.png",
     name: "Wajid Ullah",
     lastMsg: "Ok Sure...",
@@ -56,6 +64,7 @@ export const dummyConversationData = [
     messageSeen: true,
   },
   {
+    id: 9,
     profileUrl: "/assets/profile.png",
     name: "Wajid Ullah",
     lastMsg: "Ok Sure...",
@@ -63,6 +72,7 @@ export const dummyConversationData = [
     messageSeen: false,
   },
   {
+    id: 10,
     profileUrl: "/assets/profile.png",
     name: "Wajid Ullah",
     lastMsg: "Ok Sure...",
@@ -70,6 +80,55 @@ export const dummyConversationData = [
     messageSeen: false,
   },
   {
+    id: 11,
+    profileUrl: "/assets/profile.png",
+    name: "Wajid Ullah",
+    lastMsg: "Ok Sure...",
+    time: "12",
+    messageSeen: false,
+  },
+  {
+    id: 11,
+    profileUrl: "/assets/profile.png",
+    name: "Wajid Ullah",
+    lastMsg: "Ok Sure...",
+    time: "12",
+    messageSeen: false,
+  },
+  {
+    id: 11,
+    profileUrl: "/assets/profile.png",
+    name: "Wajid Ullah",
+    lastMsg: "Ok Sure...",
+    time: "12",
+    messageSeen: false,
+  },
+  {
+    id: 11,
+    profileUrl: "/assets/profile.png",
+    name: "Wajid Ullah",
+    lastMsg: "Ok Sure...",
+    time: "12",
+    messageSeen: false,
+  },
+  {
+    id: 11,
+    profileUrl: "/assets/profile.png",
+    name: "Wajid Ullah",
+    lastMsg: "Ok Sure...",
+    time: "12",
+    messageSeen: false,
+  },
+  {
+    id: 11,
+    profileUrl: "/assets/profile.png",
+    name: "Wajid Ullah",
+    lastMsg: "Ok Sure...",
+    time: "12",
+    messageSeen: false,
+  },
+  {
+    id: 11,
     profileUrl: "/assets/profile.png",
     name: "Wajid Ullah",
     lastMsg: "Ok Sure...",

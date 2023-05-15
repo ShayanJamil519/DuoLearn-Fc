@@ -1,10 +1,13 @@
+import Image from "next/image";
 import styles from "../../styles/SenderMessage.module.scss";
 
 const SenderMessage = ({ message, profileIcon }) => {
   return (
     <div className={styles.sender__message}>
       <div>
-        <img
+        <Image
+          width={50}
+          height={50}
           src={profileIcon}
           alt="Sender Profile"
           className={styles.profile__icon}

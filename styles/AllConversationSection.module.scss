@@ -44,3 +44,28 @@
   flex-direction: column;
   padding: 20px;
 }
+
+$breakpoint-tablet: 768px;
+
+@media (max-width: $breakpoint-tablet) {
+  .all__conversations__container {
+    display: none;
+    flex: 1;
+    padding-bottom: 20px;
+  }
+
+  .conversation__header {
+    padding: 1.5rem 1rem;
+
+    h1 {
+      font-size: 22px;
+    }
+
+    svg {
+      font-size: 22px;
+    }
+  }
+  .conversation__scroll {
+    max-height: 90vh;
+  }
+}

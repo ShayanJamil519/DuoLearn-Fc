@@ -39,3 +39,35 @@
   margin-left: 10px;
   margin-right: 10px;
 }
+
+// Responsivness
+
+$breakpoint-tablet: 768px;
+
+@media (max-width: $breakpoint-tablet) {
+  .receiver__message {
+    margin-bottom: 10px;
+
+    div:first-child {
+      gap: 5px;
+
+      p {
+        font-size: 12px;
+      }
+    }
+  }
+
+  .message {
+    font-size: 12px;
+    padding: 10px 15px;
+    max-width: 75%;
+    margin-right: 55px;
+    margin-bottom: 6px;
+  }
+
+  .profile__icon {
+    width: 35px;
+    height: 35px;
+    margin-left: 6px;
+  }
+}

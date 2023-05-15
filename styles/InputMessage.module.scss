@@ -71,3 +71,50 @@
     color: #2c6fee;
   }
 }
+
+// Responsivness
+
+$breakpoint-tablet: 768px;
+
+@media (max-width: $breakpoint-tablet) {
+  .input__message__container {
+    padding: 1.2rem 0.6rem;
+  }
+
+  .input__message {
+    flex: 0.95;
+    width: unset;
+    height: 50px;
+    gap: 3px;
+    padding: 0rem 0.8rem;
+
+    div:first-child {
+      padding-right: 10px;
+    }
+
+    svg {
+      font-size: 20px;
+    }
+
+    div:nth-child(2) {
+      padding: 0.4rem 0.4rem;
+    }
+
+    input {
+      font-size: 16px;
+
+      &::placeholder {
+        font-size: 14px;
+      }
+    }
+  }
+
+  .volume {
+    width: 50px;
+    height: 50px;
+
+    svg {
+      font-size: 25px;
+    }
+  }
+}

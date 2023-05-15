@@ -5,9 +5,6 @@
   padding-top: 1rem;
 }
 
-.left__container {
-}
-
 .right__container {
   display: flex;
   justify-content: flex-end;
@@ -47,5 +44,15 @@
     line-height: 50px;
     font-weight: 900;
     cursor: pointer;
+  }
+}
+
+// Responsivness
+
+$breakpoint-tablet: 768px;
+
+@media (max-width: $breakpoint-tablet) {
+  .header__container {
+    display: none;
   }
 }
