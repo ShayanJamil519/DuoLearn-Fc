@@ -4,13 +4,16 @@ import Conversation from "./Conversation";
 import { dummyConversationData } from "@/dummyData";
 
 const AllConversationSection = ({ handleClick, isOpen, isMobile }) => {
+  // let customStyle = isMobile && {
+  //   display: isOpen ? "none" : "",
+  // };
+
+  let customStyle = isMobile && {
+    display: isOpen ? "none" : "",
+  };
+
   return (
-    <div
-      className={styles.all__conversations__container}
-      style={{
-        display: isOpen && isMobile ? "none" : "",
-      }}
-    >
+    <div className={styles.all__conversations__container} style={customStyle}>
       {/* Header */}
       <div className={styles.conversation__header}>
         <h1>All Conversations</h1>

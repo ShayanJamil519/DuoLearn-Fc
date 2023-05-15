@@ -1,9 +1,9 @@
 "use client";
-import Header from "@/components/Header";
+import { useEffect, useState } from "react";
 import styles from "./page.module.scss";
+import Header from "@/components/Header";
 import AllConversationSection from "@/components/AllConversationSection/AllConversationSection";
 import AllMessagesSection from "@/components/AllMessagesSection/AllMessagesSection";
-import { useEffect, useState } from "react";
 
 export default function Chat() {
   const [isOpen, setIsOpen] = useState(false);

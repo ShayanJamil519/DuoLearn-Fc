@@ -7,13 +7,16 @@ import ReceiverMessage from "./ReceiverMessage";
 import InputMessage from "./InputMessage";
 
 const AllMessagesSection = ({ handleClick, isOpen, isMobile }) => {
+  // let customStyle = isMobile && {
+  //   display: isOpen ? "" : "none",
+  // };
+
+  let customStyle = isMobile && {
+    display: isOpen ? "" : "none",
+  };
+
   return (
-    <div
-      className={styles.all__messages__container}
-      style={{
-        display: isOpen && isMobile ? "" : "none",
-      }}
-    >
+    <div className={styles.all__messages__container} style={customStyle}>
       {/* Header */}
       <div className={styles.all__messages__header}>
         {/* Left Container */}
