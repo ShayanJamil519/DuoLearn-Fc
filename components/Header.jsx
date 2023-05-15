@@ -1,5 +1,5 @@
 import Image from "next/image";
-import styles from "../styles/Header.module.scss";
+import styles from "@/styles/Header.module.scss";
 import { RxHamburgerMenu } from "react-icons/rx";
 
 const Header = () => {

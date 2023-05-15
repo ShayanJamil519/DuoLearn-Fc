@@ -1,4 +1,4 @@
-import styles from "../../styles/ReceiverMessage.module.scss";
+import styles from "@/styles/ReceiverMessage.module.scss";
 
 const ReceiverMessage = ({ message, profileIcon }) => {
   return (

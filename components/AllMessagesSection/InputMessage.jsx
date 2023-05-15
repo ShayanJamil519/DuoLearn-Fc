@@ -1,6 +1,6 @@
 "use client";
 
-import styles from "../../styles/InputMessage.module.scss";
+import styles from "@/styles/InputMessage.module.scss";
 import { BsFillEmojiSmileFill } from "react-icons/bs";
 import { RiSendPlane2Fill } from "react-icons/ri";
 import { AiFillAudio } from "react-icons/ai";

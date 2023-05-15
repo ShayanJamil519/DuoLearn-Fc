@@ -4,6 +4,8 @@ import styles from "./page.module.scss";
 import Header from "@/components/Header";
 import AllConversationSection from "@/components/AllConversationSection/AllConversationSection";
 import AllMessagesSection from "@/components/AllMessagesSection/AllMessagesSection";
+import AllConversationSectionMobile from "@/components/AllConversationSection/AllConversationSectionMobile";
+import AllMessagesSectionMobile from "@/components/AllMessagesSection/AllMessagesSectionMobile";
 
 export default function Chat() {
   const [isOpen, setIsOpen] = useState(false);
@@ -30,16 +32,23 @@ export default function Chat() {
       <Header />
       {/* Chat Body */}
       <div className={styles.chat__body}>
-        <AllConversationSection
-          handleClick={handleClick}
-          isOpen={isOpen}
-          isMobile={isMobile}
-        />
-        <AllMessagesSection
-          handleClick={handleClick}
-          isOpen={isOpen}
-          isMobile={isMobile}
-        />
+        {!isMobile ? (
+          <>
+            <AllConversationSection handleClick={handleClick} />
+            <AllMessagesSection handleClick={handleClick} />
+          </>
+        ) : (
+          <>
+            <AllConversationSectionMobile
+              handleClick={handleClick}
+              isOpen={isOpen}
+            />
+            <AllMessagesSectionMobile
+              handleClick={handleClick}
+              isOpen={isOpen}
+            />
+          </>
+        )}
       </div>
     </div>
   );

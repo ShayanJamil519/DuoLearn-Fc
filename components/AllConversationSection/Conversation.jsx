@@ -1,5 +1,5 @@
 import Image from "next/image";
-import styles from "../../styles/Conversation.module.scss";
+import styles from "@/styles/Conversation.module.scss";
 
 const Conversation = ({ data, handleClick }) => {
   const { profileUrl, name, lastMsg, time, messageSeen } = data;

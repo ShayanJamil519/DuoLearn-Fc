@@ -6,9 +6,13 @@ import InputMessage from "./InputMessage";
 import { BsFillCameraVideoFill } from "react-icons/bs";
 import { MdDelete, MdMoreVert, MdOutlineArrowBackIosNew } from "react-icons/md";
 
-const AllMessagesSection = ({ handleClick }) => {
+const AllMessagesSectionMobile = ({ handleClick, isOpen }) => {
+  let customStyle = {
+    display: isOpen ? "" : "none",
+  };
+
   return (
-    <div className={styles.all__messages__container}>
+    <div className={styles.all__messages__container} style={customStyle}>
       {/* Header */}
       <div className={styles.all__messages__header}>
         {/* Left Container */}
@@ -85,4 +89,4 @@ const AllMessagesSection = ({ handleClick }) => {
   );
 };
 
-export default AllMessagesSection;
+export default AllMessagesSectionMobile;

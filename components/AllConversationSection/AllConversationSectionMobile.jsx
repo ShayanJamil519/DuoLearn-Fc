@@ -3,9 +3,13 @@ import Conversation from "./Conversation";
 import { BsSearch } from "react-icons/bs";
 import { dummyConversationData } from "@/dummyData";
 
-const AllConversationSection = ({ handleClick }) => {
+const AllConversationSectionMobile = ({ handleClick, isOpen }) => {
+  let customStyle = {
+    display: isOpen ? "none" : "",
+  };
+
   return (
-    <div className={styles.all__conversations__container}>
+    <div className={styles.all__conversations__container} style={customStyle}>
       {/* Header */}
       <div className={styles.conversation__header}>
         <h1>All Conversations</h1>
@@ -22,4 +26,4 @@ const AllConversationSection = ({ handleClick }) => {
   );
 };
 
-export default AllConversationSection;
+export default AllConversationSectionMobile;
