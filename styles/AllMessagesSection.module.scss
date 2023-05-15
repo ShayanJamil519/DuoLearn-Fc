@@ -100,7 +100,7 @@ $breakpoint-tablet: 768px;
   }
 
   .right__container {
-    gap: 6px;
+    gap: 8px;
 
     svg {
       font-size: 25px;
@@ -110,6 +110,5 @@ $breakpoint-tablet: 768px;
   .messages__body {
     padding: 1rem 0.5rem;
     min-height: 75vh;
-    // max-height: 90vh;
   }
 }

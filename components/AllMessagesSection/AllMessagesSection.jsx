@@ -13,7 +13,6 @@ const AllMessagesSection = () => {
       <div className={styles.all__messages__header}>
         {/* Left Container */}
         <div className={styles.left__container}>
-          {/* <Image src={profileUrl} width={60} height={60} alt="Profile" /> */}
           <MdOutlineArrowBackIosNew />
           <Image
             src={"/assets/profile.png"}
@@ -41,7 +40,7 @@ const AllMessagesSection = () => {
         <SenderMessage message="Hi there!" profileIcon="/assets/profile.png" />
         <ReceiverMessage
           message="Hey! How are you?"
-          profileIcon="/assets/profile.png"
+          profileIcon="/assets/profile2.png"
         />
         <SenderMessage
           message="I'm doing great, thanks for asking!"
@@ -49,13 +48,13 @@ const AllMessagesSection = () => {
         />
         <ReceiverMessage
           message="That's great to hear!"
-          profileIcon="/assets/profile.png"
+          profileIcon="/assets/profile2.png"
         />
         {/* =============== */}
         <SenderMessage message="Hi there!" profileIcon="/assets/profile.png" />
         <ReceiverMessage
           message="Hey! How are you?"
-          profileIcon="/assets/profile.png"
+          profileIcon="/assets/profile2.png"
         />
         <SenderMessage
           message="I'm doing great, thanks for asking!"
@@ -63,13 +62,13 @@ const AllMessagesSection = () => {
         />
         <ReceiverMessage
           message="That's great to hear!"
-          profileIcon="/assets/profile.png"
+          profileIcon="/assets/profile2.png"
         />
         {/* =============== */}
         <SenderMessage message="Hi there!" profileIcon="/assets/profile.png" />
         <ReceiverMessage
           message="Hey! How are you?"
-          profileIcon="/assets/profile.png"
+          profileIcon="/assets/profile2.png"
         />
         <SenderMessage
           message="I'm doing great, thanks for asking!"
@@ -77,7 +76,7 @@ const AllMessagesSection = () => {
         />
         <ReceiverMessage
           message="That's great to hear!"
-          profileIcon="/assets/profile.png"
+          profileIcon="/assets/profile2.png"
         />
       </div>
       {/* Input Message Container */}
