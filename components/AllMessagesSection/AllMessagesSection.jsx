@@ -6,14 +6,19 @@ import SenderMessage from "./SenderMessage";
 import ReceiverMessage from "./ReceiverMessage";
 import InputMessage from "./InputMessage";
 
-const AllMessagesSection = () => {
+const AllMessagesSection = ({ handleClick, isOpen, isMobile }) => {
   return (
-    <div className={styles.all__messages__container}>
+    <div
+      className={styles.all__messages__container}
+      style={{
+        display: isOpen && isMobile ? "" : "none",
+      }}
+    >
       {/* Header */}
       <div className={styles.all__messages__header}>
         {/* Left Container */}
         <div className={styles.left__container}>
-          <MdOutlineArrowBackIosNew />
+          <MdOutlineArrowBackIosNew onClick={handleClick} />
           <Image
             src={"/assets/profile.png"}
             width={60}

@@ -3,9 +3,14 @@ import { BsSearch } from "react-icons/bs";
 import Conversation from "./Conversation";
 import { dummyConversationData } from "@/dummyData";
 
-const AllConversationSection = () => {
+const AllConversationSection = ({ handleClick, isOpen, isMobile }) => {
   return (
-    <div className={styles.all__conversations__container}>
+    <div
+      className={styles.all__conversations__container}
+      style={{
+        display: isOpen && isMobile ? "none" : "",
+      }}
+    >
       {/* Header */}
       <div className={styles.conversation__header}>
         <h1>All Conversations</h1>
@@ -15,7 +20,7 @@ const AllConversationSection = () => {
 
       <div className={styles.conversation__scroll}>
         {dummyConversationData.map((data, i) => (
-          <Conversation key={i} data={data} />
+          <Conversation key={i} data={data} handleClick={handleClick} />
         ))}
       </div>
     </div>

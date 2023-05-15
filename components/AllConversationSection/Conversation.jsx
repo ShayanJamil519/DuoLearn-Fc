@@ -1,10 +1,10 @@
 import Image from "next/image";
 import styles from "../../styles/Conversation.module.scss";
 
-const Conversation = ({ data }) => {
+const Conversation = ({ data, handleClick }) => {
   const { profileUrl, name, lastMsg, time, messageSeen } = data;
   return (
-    <div className={styles.conversation__container}>
+    <div className={styles.conversation__container} onClick={handleClick}>
       {/* Left Container */}
       <div className={styles.left__container}>
         <Image src={profileUrl} width={60} height={60} alt="Profile" />
