@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope&display=swap");
+
+.chat__container {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #1e1e1e;
+  padding: 2rem 6rem;
+}
+
+.chat__body {
+  display: flex;
+  justify-content: flex-start;
+  // align-items: center;
+  margin-top: 3rem;
+  background-color: #0d1f42;
+}

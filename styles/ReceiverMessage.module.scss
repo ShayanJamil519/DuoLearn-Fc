@@ -1,0 +1,41 @@
+.receiver__message {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-bottom: 10px;
+
+  div:first-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    gap: 10px;
+
+    p {
+      color: #fff;
+      font-size: 13px;
+    }
+  }
+}
+
+.message {
+  background: #2c6fee;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 14px;
+  padding: 13px 20px;
+  max-width: 75%;
+  margin-left: 10px;
+  margin-right: 75px;
+  margin-bottom: 10px;
+  line-height: 20px;
+  word-break: break-word;
+}
+
+.profile__icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-left: 10px;
+  margin-right: 10px;
+}

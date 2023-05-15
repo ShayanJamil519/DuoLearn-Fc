@@ -1,0 +1,39 @@
+.sender__message {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 10px;
+
+  div:first-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  p {
+    color: #fff;
+    font-size: 13px;
+  }
+}
+
+.message {
+  background: #1a2b4a;
+  border-radius: 5px;
+  font-size: 14px;
+  color: #fff;
+  padding: 13px 20px;
+  max-width: 75%;
+  margin-left: 75px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  line-height: 20px;
+  word-break: break-word;
+}
+
+.profile__icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-left: 10px;
+  margin-right: 10px;
+}
